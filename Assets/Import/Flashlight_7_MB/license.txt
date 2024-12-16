@@ -1,0 +1,11 @@
+Model Information:
+* title:	Flashlight_7_MB
+* source:	https://sketchfab.com/3d-models/flashlight-7-mb-3a18bb2870ea4b229957761ed266d6aa
+* author:	Mehdi Shahsavan (https://sketchfab.com/ahmagh2e)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Flashlight_7_MB" (https://sketchfab.com/3d-models/flashlight-7-mb-3a18bb2870ea4b229957761ed266d6aa) by Mehdi Shahsavan (https://sketchfab.com/ahmagh2e) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
