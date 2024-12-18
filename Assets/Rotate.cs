@@ -23,11 +23,11 @@ public class RotationPuzzleController : MonoBehaviour
     {
         if (!isRotating && !IsBallFalling())
         {
-            if (Input.GetKeyDown(KeyCode.LeftArrow))
+            if (Input.GetKeyDown(KeyCode.RightArrow))
             {
                 StartCoroutine(RotateAllSquares(-90f)); // Counter-clockwise
             }
-            else if (Input.GetKeyDown(KeyCode.RightArrow))
+            else if (Input.GetKeyDown(KeyCode.LeftArrow))
             {
                 StartCoroutine(RotateAllSquares(90f)); // Clockwise
             }
