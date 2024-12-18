@@ -9,12 +9,19 @@ public class RotationPuzzleController : MonoBehaviour
 
     [Header("Settings")]
     [SerializeField] private float rotationDuration = 0.25f;
+    [SerializeField] private float velocityThreshold = 0.1f;
 
     private bool isRotating = false;
+    private Rigidbody2D ballRigidbody;
+
+    void Start()
+    {
+        ballRigidbody = ball.GetComponent<Rigidbody2D>();
+    }
 
     void Update()
     {
-        if (!isRotating)
+        if (!isRotating && !IsBallFalling())
         {
             if (Input.GetKeyDown(KeyCode.LeftArrow))
             {
@@ -27,17 +34,23 @@ public class RotationPuzzleController : MonoBehaviour
         }
     }
 
+    private bool IsBallFalling()
+    {
+        if (ballRigidbody != null)
+        {
+            // Check if vertical velocity is significant
+            return Mathf.Abs(ballRigidbody.linearVelocity.y) > velocityThreshold;
+        }
+        return false;
+    }
+
     private IEnumerator RotateAllSquares(float angle)
     {
         isRotating = true;
 
         // Disable gravity
-        Rigidbody2D ballRigidbody = ball.GetComponent<Rigidbody2D>();
         float previousGravityScale = ballRigidbody.gravityScale;
-        if (ballRigidbody != null)
-        {
-            ballRigidbody.gravityScale = 0f;
-        }
+        ballRigidbody.gravityScale = 0f;
 
         float elapsed = 0f;
 
@@ -58,13 +71,10 @@ public class RotationPuzzleController : MonoBehaviour
 
         immobile.rotation = targetRotation;
 
-        yield return new WaitForSeconds(1f);
+        yield return new WaitForSeconds(0.1f); // Reduced wait time for better responsiveness
 
-        // Enable gravity
-        if (ballRigidbody != null)
-        {
-            ballRigidbody.gravityScale = previousGravityScale;
-        }
+        // Restore gravity
+        ballRigidbody.gravityScale = previousGravityScale;
 
         isRotating = false;
     }
