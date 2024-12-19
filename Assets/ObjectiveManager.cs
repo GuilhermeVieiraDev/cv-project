@@ -11,7 +11,7 @@ public class ObjectiveManager : MonoBehaviour
         // Find all objectives in the scene
         allObjectives = FindObjectsByType<Objective>(FindObjectsSortMode.None);
         totalObjectives = allObjectives.Length;
-        
+        Debug.Log("Total objectives: " + totalObjectives);
         // Subscribe to each objective's onCollected event
         foreach (var objective in allObjectives)
         {

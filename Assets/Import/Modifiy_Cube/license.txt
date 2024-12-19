@@ -1,0 +1,11 @@
+Model Information:
+* title:	Modifiy Cube
+* source:	https://sketchfab.com/3d-models/modifiy-cube-0fb4af06fbe94a1185a4686bfc9a38d7
+* author:	Azanureed (https://sketchfab.com/Azanureed)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Modifiy Cube" (https://sketchfab.com/3d-models/modifiy-cube-0fb4af06fbe94a1185a4686bfc9a38d7) by Azanureed (https://sketchfab.com/Azanureed) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

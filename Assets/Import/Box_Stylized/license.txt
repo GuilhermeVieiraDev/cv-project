@@ -1,0 +1,11 @@
+Model Information:
+* title:	Box Stylized
+* source:	https://sketchfab.com/3d-models/box-stylized-0f71f7bfd3214358a79f31d9d8736fd0
+* author:	LungJun Factory (https://sketchfab.com/LungJunFactory)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Box Stylized" (https://sketchfab.com/3d-models/box-stylized-0f71f7bfd3214358a79f31d9d8736fd0) by LungJun Factory (https://sketchfab.com/LungJunFactory) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

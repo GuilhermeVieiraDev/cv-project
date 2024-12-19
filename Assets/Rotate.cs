@@ -12,11 +12,11 @@ public class RotationPuzzleController : MonoBehaviour
     [SerializeField] private float velocityThreshold = 0.1f;
 
     private bool isRotating = false;
-    private Rigidbody2D ballRigidbody;
+    private Rigidbody ballRigidbody;
 
     void Start()
     {
-        ballRigidbody = ball.GetComponent<Rigidbody2D>();
+        ballRigidbody = ball.GetComponent<Rigidbody>();
     }
 
     void Update()
@@ -49,8 +49,8 @@ public class RotationPuzzleController : MonoBehaviour
         isRotating = true;
 
         // Disable gravity
-        float previousGravityScale = ballRigidbody.gravityScale;
-        ballRigidbody.gravityScale = 0f;
+        float previousGravityScale = ballRigidbody.useGravity ? 1f : 0f;
+        ballRigidbody.useGravity = false;
 
         float elapsed = 0f;
 
@@ -74,7 +74,7 @@ public class RotationPuzzleController : MonoBehaviour
         yield return new WaitForSeconds(0.1f); // Reduced wait time for better responsiveness
 
         // Restore gravity
-        ballRigidbody.gravityScale = previousGravityScale;
+        ballRigidbody.useGravity = previousGravityScale == 1f;
 
         isRotating = false;
     }
