@@ -1,0 +1,11 @@
+Model Information:
+* title:	Medieval aged doors
+* source:	https://sketchfab.com/3d-models/medieval-aged-doors-5f5e797c25e14cddbf44aa5e4fee1719
+* author:	reddification (https://sketchfab.com/reddification)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Medieval aged doors" (https://sketchfab.com/3d-models/medieval-aged-doors-5f5e797c25e14cddbf44aa5e4fee1719) by reddification (https://sketchfab.com/reddification) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
