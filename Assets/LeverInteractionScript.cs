@@ -114,7 +114,7 @@ public class LeverInteractionScript : MonoBehaviour
     void StartMinigame()
     {
         isMinigameActive = true;
-        
+
         // Disable player movement
         if (playerMovementScript != null)
             playerMovementScript.enabled = false;
@@ -130,8 +130,10 @@ public class LeverInteractionScript : MonoBehaviour
         {
             minigameCanvas.SetActive(true);
             // Reset minigame to initial state
-            if (minigameController != null)
+            if (minigameController != null) {
                 minigameController.ResetToInitialState();
+                Debug.Log("Minigame reset!");
+            }
         }
 
         // Optional: Pause the main game time
