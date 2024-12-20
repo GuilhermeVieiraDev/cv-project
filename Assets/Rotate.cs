@@ -12,16 +12,92 @@ public class RotationPuzzleController : MonoBehaviour
     [SerializeField] private float velocityThreshold = 0.1f;
 
     private bool isRotating = false;
-    private Rigidbody ballRigidbody;
+    private Rigidbody2D ballRigidbody;
+    private ObjectiveManager objectiveManager;
+
+    // Store initial states
+    private Vector3 initialBallPosition;
+    private Quaternion initialImmobileRotation;
+    private Vector2 initialBallVelocity = Vector2.zero;
+
+    public bool isPuzzleSolved = false;
 
     void Start()
     {
-        ballRigidbody = ball.GetComponent<Rigidbody>();
-        Debug.Log("Ball rigidbody: " + ballRigidbody.name);
+        ballRigidbody = ball.GetComponent<Rigidbody2D>();
+        objectiveManager = GetComponent<ObjectiveManager>();
+
+        if (objectiveManager == null)
+        {
+            objectiveManager = gameObject.AddComponent<ObjectiveManager>();
+        }
+
+        // Store initial states when the game starts
+        StoreInitialState();
+    }
+
+    private void StoreInitialState()
+    {
+        initialBallPosition = ball.position;
+        initialImmobileRotation = immobile.rotation;
+    }
+
+    public void ResetToInitialState()
+    {
+        // Stop any ongoing rotation coroutine
+        StopAllCoroutines();
+        isRotating = false;
+
+        // Reset positions and rotations
+        immobile.rotation = initialImmobileRotation;
+        ball.position = initialBallPosition;
+
+        // Reset ball physics
+        if (ballRigidbody != null)
+        {
+            ballRigidbody.linearVelocity = initialBallVelocity;
+            ballRigidbody.angularVelocity = 0f;
+        }
+
+        ResetObjectives();
+
+        isPuzzleSolved = false;
+    }
+
+    private void ResetObjectives()
+    {
+        if (objectiveManager != null)
+        {
+            objectiveManager.ResetObjectives();
+        }
+        else
+        {
+            // Fallback if objectiveManager is missing
+            Objective[] objectives = FindObjectsByType<Objective>(FindObjectsSortMode.None);
+            foreach (var objective in objectives)
+            {
+                if (objective != null)
+                {
+                    objective.gameObject.SetActive(true);
+                }
+            }
+        }
     }
 
     void Update()
     {
+        // Add reset functionality
+        if (Input.GetKeyDown(KeyCode.R))
+        {
+            ResetToInitialState();
+            return;
+        }
+
+        if (objectiveManager != null && objectiveManager.IsAllObjectivesCollected())
+        {
+            isPuzzleSolved = true;
+        }
+
         if (!isRotating && !IsBallFalling())
         {
             if (Input.GetKeyDown(KeyCode.RightArrow))
@@ -50,8 +126,8 @@ public class RotationPuzzleController : MonoBehaviour
         isRotating = true;
 
         // Disable gravity
-        float previousGravityScale = ballRigidbody.useGravity ? 1f : 0f;
-        ballRigidbody.useGravity = false;
+        float previousGravityScale = ballRigidbody.gravityScale;
+        ballRigidbody.gravityScale = 0f;
 
         float elapsed = 0f;
 
@@ -75,8 +151,7 @@ public class RotationPuzzleController : MonoBehaviour
         yield return new WaitForSeconds(0.1f); // Reduced wait time for better responsiveness
 
         // Restore gravity
-        ballRigidbody.useGravity = previousGravityScale == 1f;
-
+        ballRigidbody.gravityScale = previousGravityScale;
         isRotating = false;
     }
 }

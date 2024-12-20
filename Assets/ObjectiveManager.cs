@@ -8,6 +8,11 @@ public class ObjectiveManager : MonoBehaviour
 
     void Start()
     {
+        InitializeObjectives();
+    }
+
+    private void InitializeObjectives()
+    {
         // Find all objectives in the scene
         allObjectives = FindObjectsByType<Objective>(FindObjectsSortMode.None);
         totalObjectives = allObjectives.Length;
@@ -19,14 +24,30 @@ public class ObjectiveManager : MonoBehaviour
         }
     }
 
+    public void ResetObjectives()
+    {
+        // Reset counter
+        collectedObjectives = 0;
+        
+        // Find and reactivate all objectives
+        foreach (var objective in allObjectives)
+        {
+            if (objective != null)
+            {
+                objective.gameObject.SetActive(true);
+            }
+        }
+        
+        Debug.Log("Objectives reset. Total objectives: " + totalObjectives);
+    }
+
+    public bool IsAllObjectivesCollected()
+    {
+        return collectedObjectives >= totalObjectives;
+    }
+
     private void OnObjectiveCollected()
     {
         collectedObjectives++;
-        
-        if (collectedObjectives >= totalObjectives)
-        {
-            Debug.Log("All objectives collected!");
-            // Add your level complete logic here
-        }
     }
 }

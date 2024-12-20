@@ -5,7 +5,7 @@ public class Objective : MonoBehaviour
 {
     public UnityEvent onCollected;
 
-    private void OnTriggerEnter(Collider other)
+    private void OnTriggerEnter2D(Collider2D other)
     {
         if (other.CompareTag("Puzzle1-Main"))
         {
