@@ -8,6 +8,7 @@ TagManager:
   - Puzzle2-Immobile
   - Puzzle2-Empty
   - Puzzle2-Movable
+  - Puzzle2-Walls
   layers:
   - Default
   - TransparentFX
