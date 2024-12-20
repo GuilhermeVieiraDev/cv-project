@@ -11,6 +11,10 @@ public class FlexibleBlockMovement : MonoBehaviour
     private bool isAnimating = false;
     [SerializeField] private float moveSpeed = 5f;
 
+    // Store initial state
+    private int[] initialSiblingIndices;
+    private string[] initialTags;
+
     void Start()
     {
         Transform cellsContainer = transform.Find("Grid");
@@ -21,11 +25,15 @@ public class FlexibleBlockMovement : MonoBehaviour
         }
 
         gridLayout = cellsContainer.GetComponent<GridLayoutGroup>();
+        initialSiblingIndices = new int[cellsContainer.childCount];
+        initialTags = new string[cellsContainer.childCount];
         
         gridCells = new RectTransform[cellsContainer.childCount];
         for (int i = 0; i < cellsContainer.childCount; i++)
         {
             gridCells[i] = cellsContainer.GetChild(i) as RectTransform;
+            initialSiblingIndices[i] = gridCells[i].GetSiblingIndex();
+            initialTags[i] = gridCells[i].tag;
         }
     }
 
@@ -33,6 +41,10 @@ public class FlexibleBlockMovement : MonoBehaviour
     {
         if (isAnimating) return;
 
+        // if (Input.GetKeyDown(KeyCode.R))
+        // {
+        //     ResetToInitialState();
+        // } else 
         if (Input.GetKeyDown(KeyCode.UpArrow))
             MoveFlexibleBlocks(Vector2Int.down);
         else if (Input.GetKeyDown(KeyCode.DownArrow))
@@ -41,6 +53,37 @@ public class FlexibleBlockMovement : MonoBehaviour
             MoveFlexibleBlocks(Vector2Int.left);
         else if (Input.GetKeyDown(KeyCode.RightArrow))
             MoveFlexibleBlocks(Vector2Int.right);
+    }
+
+    private void ResetToInitialState()
+    {
+        if (isAnimating) return;
+
+        // Disable grid layout temporarily
+        gridLayout.enabled = false;
+
+        // Create a temporary array to hold references in their current order
+        RectTransform[] tempCells = new RectTransform[gridCells.Length];
+        System.Array.Copy(gridCells, tempCells, gridCells.Length);
+
+        // Reset each cell to its initial position
+        for (int i = 0; i < gridCells.Length; i++)
+        {
+            // Find the cell that was originally at this position
+            for (int j = 0; j < tempCells.Length; j++)
+            {
+                if (initialSiblingIndices[i] == initialSiblingIndices[j])
+                {
+                    gridCells[i] = tempCells[j];
+                    gridCells[i].SetSiblingIndex(initialSiblingIndices[i]);
+                    gridCells[i].tag = initialTags[i];
+                    break;
+                }
+            }
+        }
+
+        // Re-enable grid layout
+        gridLayout.enabled = true;
     }
 
     private void MoveFlexibleBlocks(Vector2Int direction)

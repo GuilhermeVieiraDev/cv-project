@@ -108,6 +108,9 @@ public class LeverInteractionScript : MonoBehaviour
         if (isPlayerNearby && Input.GetKeyDown(interactionKey) && !isLeverActivated)
         {
             StartMinigame();
+
+            if (minigameCanvas != null)
+                minigameController = FindObjectOfType<RotationPuzzleController>();
         }
     }
 

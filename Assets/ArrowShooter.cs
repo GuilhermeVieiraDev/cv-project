@@ -10,7 +10,7 @@ public class ArrowShooter : MonoBehaviour
     private GameObject currentArrow;
     private Transform arrowRect;
     private bool isShooting = false;
-    private bool puzzleComplete = false;
+    public bool puzzleComplete = false;
     private GridLayoutGroup grid;
     private float cellSize;
 
@@ -75,11 +75,7 @@ public class ArrowShooter : MonoBehaviour
                 // Check if we hit a wall (Fixed block)
                 if (hit.collider.CompareTag("Puzzle2-Walls"))
                 {
-                    
 					puzzleComplete = true;
-					Debug.Log("Puzzle Complete!");
-                    
-					SpawnArrow();
                     return;
                 }
                 // If we hit any other type of block, just reset

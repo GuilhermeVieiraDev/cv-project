@@ -817,6 +817,7 @@ MonoBehaviour:
   arrowPrefab: {fileID: 1002663142}
   arrowSpeed: 300
   gridContainer: {fileID: 10410264}
+  puzzleComplete: 0
 --- !u!1001 &14894735
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -13084,7 +13085,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!81 &330585544
 AudioListener:
   m_ObjectHideFlags: 0
@@ -13153,7 +13154,7 @@ Transform:
   m_GameObject: {fileID: 330585543}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 578.95, y: 242.71, z: -79}
+  m_LocalPosition: {x: 620.5, y: 241.4, z: -79}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -20221,7 +20222,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1114225505291376235, guid: 8e29c3f7f1b5a2d44b27b4632aaa882c, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4556895415955565658, guid: 8e29c3f7f1b5a2d44b27b4632aaa882c, type: 3}
       propertyPath: m_Enabled
@@ -43482,7 +43483,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1201065232
 RectTransform:
   m_ObjectHideFlags: 0
@@ -44349,7 +44350,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1251478235
 Transform:
   m_ObjectHideFlags: 0
@@ -69942,7 +69943,7 @@ Transform:
   m_GameObject: {fileID: 1955531633}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 339.95, y: 191.71, z: -86.8}
+  m_LocalPosition: {x: 617.3, y: 236.4, z: -219.8}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []

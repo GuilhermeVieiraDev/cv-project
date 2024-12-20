@@ -44,7 +44,7 @@ public class LeverInteractionScript2 : MonoBehaviour
     private bool isPlayerNearby = false;
     private bool isLeverActivated = false;
     private bool isMinigameActive = false;
-    private RotationPuzzleController minigameController;
+    private ArrowShooter minigameController;
     private MonoBehaviour playerMovementScript;
 
     void Start()
@@ -58,7 +58,7 @@ public class LeverInteractionScript2 : MonoBehaviour
 
         // Get reference to minigame controller
         if (minigameCanvas != null)
-            minigameController = FindObjectOfType<RotationPuzzleController>();
+            minigameController = FindObjectOfType<ArrowShooter>();
             
         // Initial setup
         if (minigameCanvas != null)
@@ -108,6 +108,9 @@ public class LeverInteractionScript2 : MonoBehaviour
         if (isPlayerNearby && Input.GetKeyDown(interactionKey) && !isLeverActivated)
         {
             StartMinigame();
+
+            if (minigameCanvas != null)
+                minigameController = FindObjectOfType<ArrowShooter>();
         }
     }
 
@@ -130,8 +133,8 @@ public class LeverInteractionScript2 : MonoBehaviour
         {
             minigameCanvas.SetActive(true);
             // Reset minigame to initial state
-            if (minigameController != null)
-                minigameController.ResetToInitialState();
+            // if (minigameController != null)
+                // minigameController.ResetToInitialState();
         }
 
         // Optional: Pause the main game time
@@ -181,7 +184,7 @@ public class LeverInteractionScript2 : MonoBehaviour
             EndMinigame();
         }
 
-        if (minigameController != null && minigameController.isPuzzleSolved)
+        if (minigameController != null && minigameController.puzzleComplete)
         {
             OnMinigameCompleted();
             return;
