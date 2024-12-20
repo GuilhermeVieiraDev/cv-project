@@ -28,13 +28,42 @@ public class PlayerController : MonoBehaviour
     void Update()
     {
         // Horizontal rotation
-        transform.Rotate(Vector3.up * Input.GetAxis("Mouse X")* 2f);
+        transform.Rotate(Vector3.up * Input.GetAxis("Mouse X") * 2f);
 
         newVelocity = Vector3.up * rb.linearVelocity.y;
-        float speed = Input.GetKey(KeyCode.LeftShift) ? runSpeed : walkSpeed;
-        newVelocity.x = Input.GetAxis("Horizontal") * speed;
-        newVelocity.z = Input.GetAxis("Vertical") * speed;
 
+        // Movement speed (walking or running)
+        float speed = Input.GetKey(KeyCode.LeftShift) ? runSpeed : walkSpeed;
+
+        // Handle horizontal movement (A and D keys)
+        if (Input.GetKey(KeyCode.A))
+        {
+            newVelocity.x = -speed; // Move left
+        }
+        else if (Input.GetKey(KeyCode.D))
+        {
+            newVelocity.x = speed; // Move right
+        }
+        else
+        {
+            newVelocity.x = 0f; // Stop horizontal movement
+        }
+
+        // Handle forward/backward movement (W and S keys)
+        if (Input.GetKey(KeyCode.W))
+        {
+            newVelocity.z = speed; // Move forward
+        }
+        else if (Input.GetKey(KeyCode.S))
+        {
+            newVelocity.z = -speed; // Move backward
+        }
+        else
+        {
+            newVelocity.z = 0f; // Stop forward/backward movement
+        }
+
+        // Handle jumping
         if (isGrounded)
         {
             if (Input.GetKeyDown(KeyCode.Space) && !isJumping)
@@ -44,16 +73,16 @@ public class PlayerController : MonoBehaviour
             }
         }
 
-         rb.linearVelocity = transform.TransformDirection(newVelocity);
+        rb.linearVelocity = transform.TransformDirection(newVelocity);
     }
 
     void FixedUpdate()
     {
-
         if (Physics.Raycast(camera.transform.position, Vector3.down, out RaycastHit hit, 1f))
         {
             isGrounded = true;
-        }else isGrounded = false;
+        }
+        else isGrounded = false;
     }
 
     void LateUpdate()
@@ -71,7 +100,7 @@ public class PlayerController : MonoBehaviour
             angle -= 360;
         else if (angle < -180)
             angle += 360;
-        
+
         if (angle > angleMax)
             angle = angleMax;
         else if (angle < angleMin)

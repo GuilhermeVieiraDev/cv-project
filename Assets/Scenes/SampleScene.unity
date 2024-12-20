@@ -347,6 +347,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Stone_cube_PBR (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 1214731190773470432, guid: 2fb3a94c5d64e0b4ba784a6601ca77c6, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1667981212260388545, guid: 2fb3a94c5d64e0b4ba784a6601ca77c6, type: 3}
       propertyPath: m_LocalScale.x
       value: 10
@@ -721,7 +725,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &10410264
 RectTransform:
   m_ObjectHideFlags: 0
@@ -767,6 +771,10 @@ PrefabInstance:
     - target: {fileID: 1214731190773470432, guid: 2fb3a94c5d64e0b4ba784a6601ca77c6, type: 3}
       propertyPath: m_Name
       value: Stone_cube_PBR (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1214731190773470432, guid: 2fb3a94c5d64e0b4ba784a6601ca77c6, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1667981212260388545, guid: 2fb3a94c5d64e0b4ba784a6601ca77c6, type: 3}
       propertyPath: m_LocalScale.x
@@ -955,6 +963,10 @@ PrefabInstance:
     - target: {fileID: 7147413089626829632, guid: 99471e5e833b75e47a018af388d93d37, type: 3}
       propertyPath: m_Name
       value: Box_Stylized (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7147413089626829632, guid: 99471e5e833b75e47a018af388d93d37, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1458,10 +1470,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 1063619248}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 175, y: -125}
+  m_SizeDelta: {x: 50, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!61 &40639987
 BoxCollider2D:
@@ -2416,6 +2428,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Stone_cube_PBR (25)
       objectReference: {fileID: 0}
+    - target: {fileID: 1214731190773470432, guid: 2fb3a94c5d64e0b4ba784a6601ca77c6, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1667981212260388545, guid: 2fb3a94c5d64e0b4ba784a6601ca77c6, type: 3}
       propertyPath: m_LocalScale.x
       value: 10
@@ -3360,6 +3376,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Box_Stylized (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 7147413089626829632, guid: 99471e5e833b75e47a018af388d93d37, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3410,6 +3430,10 @@ PrefabInstance:
     - target: {fileID: 1214731190773470432, guid: 2fb3a94c5d64e0b4ba784a6601ca77c6, type: 3}
       propertyPath: m_Name
       value: Stone_cube_PBR (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1214731190773470432, guid: 2fb3a94c5d64e0b4ba784a6601ca77c6, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1667981212260388545, guid: 2fb3a94c5d64e0b4ba784a6601ca77c6, type: 3}
       propertyPath: m_LocalScale.x
@@ -3534,6 +3558,10 @@ PrefabInstance:
     - target: {fileID: 1214731190773470432, guid: 2fb3a94c5d64e0b4ba784a6601ca77c6, type: 3}
       propertyPath: m_Name
       value: Stone_cube_PBR (42)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1214731190773470432, guid: 2fb3a94c5d64e0b4ba784a6601ca77c6, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1667981212260388545, guid: 2fb3a94c5d64e0b4ba784a6601ca77c6, type: 3}
       propertyPath: m_LocalScale.x
@@ -3679,10 +3707,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 1063619248}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 125, y: -125}
+  m_SizeDelta: {x: 50, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!212 &109059080
 SpriteRenderer:
@@ -4444,6 +4472,10 @@ PrefabInstance:
     - target: {fileID: 1214731190773470432, guid: 2fb3a94c5d64e0b4ba784a6601ca77c6, type: 3}
       propertyPath: m_Name
       value: Stone_cube_PBR (26)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1214731190773470432, guid: 2fb3a94c5d64e0b4ba784a6601ca77c6, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1667981212260388545, guid: 2fb3a94c5d64e0b4ba784a6601ca77c6, type: 3}
       propertyPath: m_LocalScale.x
@@ -5221,6 +5253,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Stone_cube_PBR (15)
       objectReference: {fileID: 0}
+    - target: {fileID: 1214731190773470432, guid: 2fb3a94c5d64e0b4ba784a6601ca77c6, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1667981212260388545, guid: 2fb3a94c5d64e0b4ba784a6601ca77c6, type: 3}
       propertyPath: m_LocalScale.x
       value: 10
@@ -5753,6 +5789,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Stone_cube_PBR (21)
       objectReference: {fileID: 0}
+    - target: {fileID: 1214731190773470432, guid: 2fb3a94c5d64e0b4ba784a6601ca77c6, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1667981212260388545, guid: 2fb3a94c5d64e0b4ba784a6601ca77c6, type: 3}
       propertyPath: m_LocalScale.x
       value: 10
@@ -6201,6 +6241,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Stone_cube_PBR (43)
       objectReference: {fileID: 0}
+    - target: {fileID: 1214731190773470432, guid: 2fb3a94c5d64e0b4ba784a6601ca77c6, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1667981212260388545, guid: 2fb3a94c5d64e0b4ba784a6601ca77c6, type: 3}
       propertyPath: m_LocalScale.x
       value: 10
@@ -6410,6 +6454,10 @@ PrefabInstance:
     - target: {fileID: 1214731190773470432, guid: 2fb3a94c5d64e0b4ba784a6601ca77c6, type: 3}
       propertyPath: m_Name
       value: Stone_cube_PBR (29)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1214731190773470432, guid: 2fb3a94c5d64e0b4ba784a6601ca77c6, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1667981212260388545, guid: 2fb3a94c5d64e0b4ba784a6601ca77c6, type: 3}
       propertyPath: m_LocalScale.x
@@ -7181,6 +7229,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Box_Stylized (14)
       objectReference: {fileID: 0}
+    - target: {fileID: 7147413089626829632, guid: 99471e5e833b75e47a018af388d93d37, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -7218,8 +7270,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1.9068482, y: 1.7683595, z: 1.8632444}
-  m_Center: {x: -0.028118897, y: -0.027194882, z: 0.0047546388}
+  m_Size: {x: 5.706848, y: 1.8683589, z: 1.8632444}
+  m_Center: {x: -1.928119, y: -0.077194504, z: 0.0047546388}
 --- !u!1 &219295793
 GameObject:
   m_ObjectHideFlags: 0
@@ -7339,6 +7391,10 @@ PrefabInstance:
     - target: {fileID: 1214731190773470432, guid: 2fb3a94c5d64e0b4ba784a6601ca77c6, type: 3}
       propertyPath: m_Name
       value: Stone_cube_PBR (44)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1214731190773470432, guid: 2fb3a94c5d64e0b4ba784a6601ca77c6, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1667981212260388545, guid: 2fb3a94c5d64e0b4ba784a6601ca77c6, type: 3}
       propertyPath: m_LocalScale.x
@@ -8131,10 +8187,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 1063619248}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 125, y: -75}
+  m_SizeDelta: {x: 50, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!61 &244119944
 BoxCollider2D:
@@ -8581,6 +8637,10 @@ PrefabInstance:
     - target: {fileID: 7147413089626829632, guid: 99471e5e833b75e47a018af388d93d37, type: 3}
       propertyPath: m_Name
       value: Box_Stylized (21)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7147413089626829632, guid: 99471e5e833b75e47a018af388d93d37, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -9952,10 +10012,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 1063619248}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 175, y: -225}
+  m_SizeDelta: {x: 50, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!212 &302885795
 SpriteRenderer:
@@ -10394,6 +10454,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Stone_cube_PBR (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 1214731190773470432, guid: 2fb3a94c5d64e0b4ba784a6601ca77c6, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1667981212260388545, guid: 2fb3a94c5d64e0b4ba784a6601ca77c6, type: 3}
       propertyPath: m_LocalScale.x
       value: 10
@@ -10798,6 +10862,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Box_Stylized (12)
       objectReference: {fileID: 0}
+    - target: {fileID: 7147413089626829632, guid: 99471e5e833b75e47a018af388d93d37, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -10835,8 +10903,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1.9068482, y: 1.7683595, z: 1.8632444}
-  m_Center: {x: -0.028118897, y: -0.027194882, z: 0.0047546388}
+  m_Size: {x: 1.9068482, y: 1.7683588, z: 1.8632444}
+  m_Center: {x: -0.028118897, y: -0.0271945, z: 0.0047546388}
 --- !u!1001 &325859558
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10913,6 +10981,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Box_Stylized (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 7147413089626829632, guid: 99471e5e833b75e47a018af388d93d37, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -10950,8 +11022,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1.9068482, y: 1.7683595, z: 1.8632444}
-  m_Center: {x: -0.028118897, y: -0.027194882, z: 0.0047546388}
+  m_Size: {x: 1.9068482, y: 5.6683574, z: 1.8632444}
+  m_Center: {x: -0.028118897, y: 1.9228039, z: 0.0047546388}
 --- !u!1 &330275841
 GameObject:
   m_ObjectHideFlags: 0
@@ -11109,7 +11181,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!81 &330585544
 AudioListener:
   m_ObjectHideFlags: 0
@@ -11178,7 +11250,7 @@ Transform:
   m_GameObject: {fileID: 330585543}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 619, y: 321, z: -415}
+  m_LocalPosition: {x: 374, y: 275, z: -399}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -11454,6 +11526,10 @@ PrefabInstance:
     - target: {fileID: 1214731190773470432, guid: 2fb3a94c5d64e0b4ba784a6601ca77c6, type: 3}
       propertyPath: m_Name
       value: Stone_cube_PBR (32)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1214731190773470432, guid: 2fb3a94c5d64e0b4ba784a6601ca77c6, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1667981212260388545, guid: 2fb3a94c5d64e0b4ba784a6601ca77c6, type: 3}
       propertyPath: m_LocalScale.x
@@ -12011,6 +12087,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Stone_cube_PBR (41)
       objectReference: {fileID: 0}
+    - target: {fileID: 1214731190773470432, guid: 2fb3a94c5d64e0b4ba784a6601ca77c6, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1667981212260388545, guid: 2fb3a94c5d64e0b4ba784a6601ca77c6, type: 3}
       propertyPath: m_LocalScale.x
       value: 10
@@ -12307,7 +12387,7 @@ Light:
   serializedVersion: 11
   m_Type: 1
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 10
+  m_Intensity: 0.5
   m_Range: 10
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
@@ -14333,6 +14413,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Stone_cube_PBR (28)
       objectReference: {fileID: 0}
+    - target: {fileID: 1214731190773470432, guid: 2fb3a94c5d64e0b4ba784a6601ca77c6, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1667981212260388545, guid: 2fb3a94c5d64e0b4ba784a6601ca77c6, type: 3}
       propertyPath: m_LocalScale.x
       value: 10
@@ -15491,10 +15575,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 1063619248}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 75, y: -25}
+  m_SizeDelta: {x: 50, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!212 &452469400
 SpriteRenderer:
@@ -16261,6 +16345,10 @@ PrefabInstance:
     - target: {fileID: 1214731190773470432, guid: 2fb3a94c5d64e0b4ba784a6601ca77c6, type: 3}
       propertyPath: m_Name
       value: Stone_cube_PBR (40)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1214731190773470432, guid: 2fb3a94c5d64e0b4ba784a6601ca77c6, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1667981212260388545, guid: 2fb3a94c5d64e0b4ba784a6601ca77c6, type: 3}
       propertyPath: m_LocalScale.x
@@ -18330,6 +18418,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Stone_cube_PBR (18)
       objectReference: {fileID: 0}
+    - target: {fileID: 1214731190773470432, guid: 2fb3a94c5d64e0b4ba784a6601ca77c6, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1667981212260388545, guid: 2fb3a94c5d64e0b4ba784a6601ca77c6, type: 3}
       propertyPath: m_LocalScale.x
       value: 10
@@ -19057,6 +19149,10 @@ PrefabInstance:
     - target: {fileID: 7147413089626829632, guid: 99471e5e833b75e47a018af388d93d37, type: 3}
       propertyPath: m_Name
       value: Box_Stylized
+      objectReference: {fileID: 0}
+    - target: {fileID: 7147413089626829632, guid: 99471e5e833b75e47a018af388d93d37, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -20610,10 +20706,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 1063619248}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 25, y: -225}
+  m_SizeDelta: {x: 50, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!212 &629429084
 SpriteRenderer:
@@ -20748,10 +20844,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 1063619248}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 225, y: -225}
+  m_SizeDelta: {x: 50, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!212 &630164961
 SpriteRenderer:
@@ -21146,6 +21242,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Box_Stylized (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 7147413089626829632, guid: 99471e5e833b75e47a018af388d93d37, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -21183,8 +21283,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1.9068482, y: 1.7683595, z: 1.8632444}
-  m_Center: {x: -0.028118897, y: -0.027194882, z: 0.0047546388}
+  m_Size: {x: 1.9068482, y: 3.668359, z: 1.8632444}
+  m_Center: {x: -0.028118897, y: -0.9771944, z: 0.0047546388}
 --- !u!1 &651115552
 GameObject:
   m_ObjectHideFlags: 0
@@ -21801,6 +21901,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Box_Stylized (16)
       objectReference: {fileID: 0}
+    - target: {fileID: 7147413089626829632, guid: 99471e5e833b75e47a018af388d93d37, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -21838,8 +21942,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1.9068482, y: 1.7683595, z: 1.8632444}
-  m_Center: {x: -0.028118897, y: -0.027194882, z: 0.0047546388}
+  m_Size: {x: 1.9068482, y: 5.86836, z: 1.8632444}
+  m_Center: {x: -0.028118897, y: 2.0228055, z: 0.0047546388}
 --- !u!1 &674794907
 GameObject:
   m_ObjectHideFlags: 0
@@ -22067,6 +22171,10 @@ PrefabInstance:
     - target: {fileID: 1214731190773470432, guid: 2fb3a94c5d64e0b4ba784a6601ca77c6, type: 3}
       propertyPath: m_Name
       value: Stone_cube_PBR (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1214731190773470432, guid: 2fb3a94c5d64e0b4ba784a6601ca77c6, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1667981212260388545, guid: 2fb3a94c5d64e0b4ba784a6601ca77c6, type: 3}
       propertyPath: m_LocalScale.x
@@ -24108,6 +24216,10 @@ PrefabInstance:
       value: Modifiy_Cube
       objectReference: {fileID: 0}
     - target: {fileID: 483062871827661043, guid: b79a0802d5e53d24986dee843f0a3665, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 483062871827661043, guid: b79a0802d5e53d24986dee843f0a3665, type: 3}
       propertyPath: m_TagString
       value: Puzzle1-Main
       objectReference: {fileID: 0}
@@ -24293,6 +24405,10 @@ PrefabInstance:
     - target: {fileID: 1214731190773470432, guid: 2fb3a94c5d64e0b4ba784a6601ca77c6, type: 3}
       propertyPath: m_Name
       value: Stone_cube_PBR (13)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1214731190773470432, guid: 2fb3a94c5d64e0b4ba784a6601ca77c6, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1667981212260388545, guid: 2fb3a94c5d64e0b4ba784a6601ca77c6, type: 3}
       propertyPath: m_LocalScale.x
@@ -24532,7 +24648,7 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 757744582}
   serializedVersion: 4
-  m_Mass: 20
+  m_Mass: 200
   m_Drag: 0
   m_AngularDrag: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
@@ -24570,8 +24686,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 2.4, y: 2.4, z: 2.4}
-  m_Center: {x: 0.034664154, y: 0.9280777, z: -0.11082685}
+  m_Size: {x: 1.7750015, y: 1.8999939, z: 1.5250001}
+  m_Center: {x: -0.027835846, y: 0.9280777, z: 0.07667315}
 --- !u!1 &759011722
 GameObject:
   m_ObjectHideFlags: 0
@@ -24799,6 +24915,10 @@ PrefabInstance:
     - target: {fileID: 1214731190773470432, guid: 2fb3a94c5d64e0b4ba784a6601ca77c6, type: 3}
       propertyPath: m_Name
       value: Stone_cube_PBR (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1214731190773470432, guid: 2fb3a94c5d64e0b4ba784a6601ca77c6, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1667981212260388545, guid: 2fb3a94c5d64e0b4ba784a6601ca77c6, type: 3}
       propertyPath: m_LocalScale.x
@@ -25312,6 +25432,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Box_Stylized (23)
       objectReference: {fileID: 0}
+    - target: {fileID: 7147413089626829632, guid: 99471e5e833b75e47a018af388d93d37, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -25362,6 +25486,10 @@ PrefabInstance:
     - target: {fileID: 1214731190773470432, guid: 2fb3a94c5d64e0b4ba784a6601ca77c6, type: 3}
       propertyPath: m_Name
       value: Stone_cube_PBR (39)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1214731190773470432, guid: 2fb3a94c5d64e0b4ba784a6601ca77c6, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1667981212260388545, guid: 2fb3a94c5d64e0b4ba784a6601ca77c6, type: 3}
       propertyPath: m_LocalScale.x
@@ -25641,10 +25769,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 1063619248}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 175, y: -175}
+  m_SizeDelta: {x: 50, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!212 &781906115
 SpriteRenderer:
@@ -28201,10 +28329,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 1063619248}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 225, y: -75}
+  m_SizeDelta: {x: 50, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!61 &843524363
 BoxCollider2D:
@@ -28716,10 +28844,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 1063619248}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 175, y: -25}
+  m_SizeDelta: {x: 50, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!212 &851997882
 SpriteRenderer:
@@ -28833,6 +28961,10 @@ PrefabInstance:
     - target: {fileID: 1214731190773470432, guid: 2fb3a94c5d64e0b4ba784a6601ca77c6, type: 3}
       propertyPath: m_Name
       value: Stone_cube_PBR (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1214731190773470432, guid: 2fb3a94c5d64e0b4ba784a6601ca77c6, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1667981212260388545, guid: 2fb3a94c5d64e0b4ba784a6601ca77c6, type: 3}
       propertyPath: m_LocalScale.x
@@ -29194,10 +29326,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 1063619248}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 75, y: -175}
+  m_SizeDelta: {x: 50, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!212 &870773205
 SpriteRenderer:
@@ -29331,10 +29463,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 1063619248}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 25, y: -175}
+  m_SizeDelta: {x: 50, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!61 &879562661
 BoxCollider2D:
@@ -29414,10 +29546,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 1063619248}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 175, y: -75}
+  m_SizeDelta: {x: 50, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!212 &882996077
 SpriteRenderer:
@@ -29595,6 +29727,10 @@ PrefabInstance:
     - target: {fileID: 7147413089626829632, guid: 99471e5e833b75e47a018af388d93d37, type: 3}
       propertyPath: m_Name
       value: Box_Stylized (20)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7147413089626829632, guid: 99471e5e833b75e47a018af388d93d37, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -29882,10 +30018,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 1063619248}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 125, y: -175}
+  m_SizeDelta: {x: 50, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!61 &889158295
 BoxCollider2D:
@@ -31363,6 +31499,10 @@ PrefabInstance:
     - target: {fileID: 1214731190773470432, guid: 2fb3a94c5d64e0b4ba784a6601ca77c6, type: 3}
       propertyPath: m_Name
       value: Stone_cube_PBR (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1214731190773470432, guid: 2fb3a94c5d64e0b4ba784a6601ca77c6, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1667981212260388545, guid: 2fb3a94c5d64e0b4ba784a6601ca77c6, type: 3}
       propertyPath: m_LocalScale.x
@@ -32891,6 +33031,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Stone_cube_PBR (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 1214731190773470432, guid: 2fb3a94c5d64e0b4ba784a6601ca77c6, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1667981212260388545, guid: 2fb3a94c5d64e0b4ba784a6601ca77c6, type: 3}
       propertyPath: m_LocalScale.x
       value: 10
@@ -33187,6 +33331,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Box_Stylized (17)
       objectReference: {fileID: 0}
+    - target: {fileID: 7147413089626829632, guid: 99471e5e833b75e47a018af388d93d37, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -33224,8 +33372,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1.9068482, y: 1.7683595, z: 1.8632444}
-  m_Center: {x: -0.028118897, y: -0.027194882, z: 0.0047546388}
+  m_Size: {x: 3.8068483, y: 1.7683595, z: 1.8632444}
+  m_Center: {x: -0.9781189, y: -0.027194882, z: 0.0047546388}
 --- !u!1 &1058982715
 GameObject:
   m_ObjectHideFlags: 0
@@ -33647,6 +33795,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Stone_cube_PBR (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 1214731190773470432, guid: 2fb3a94c5d64e0b4ba784a6601ca77c6, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1667981212260388545, guid: 2fb3a94c5d64e0b4ba784a6601ca77c6, type: 3}
       propertyPath: m_LocalScale.x
       value: 10
@@ -33942,6 +34094,10 @@ PrefabInstance:
     - target: {fileID: 7147413089626829632, guid: 99471e5e833b75e47a018af388d93d37, type: 3}
       propertyPath: m_Name
       value: Box_Stylized (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7147413089626829632, guid: 99471e5e833b75e47a018af388d93d37, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -35930,6 +36086,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Box_Stylized (19)
       objectReference: {fileID: 0}
+    - target: {fileID: 7147413089626829632, guid: 99471e5e833b75e47a018af388d93d37, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -36413,6 +36573,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Stone_cube_PBR (20)
       objectReference: {fileID: 0}
+    - target: {fileID: 1214731190773470432, guid: 2fb3a94c5d64e0b4ba784a6601ca77c6, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1667981212260388545, guid: 2fb3a94c5d64e0b4ba784a6601ca77c6, type: 3}
       propertyPath: m_LocalScale.x
       value: 10
@@ -36593,9 +36757,9 @@ Canvas:
   m_GameObject: {fileID: 1156957631}
   m_Enabled: 1
   serializedVersion: 3
-  m_RenderMode: 0
-  m_Camera: {fileID: 0}
-  m_PlaneDistance: 100
+  m_RenderMode: 1
+  m_Camera: {fileID: 798339227}
+  m_PlaneDistance: 0.02
   m_PixelPerfect: 0
   m_ReceivesEvents: 1
   m_OverrideSorting: 0
@@ -37725,7 +37889,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1201065232
 RectTransform:
   m_ObjectHideFlags: 0
@@ -39786,10 +39950,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 1063619248}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 225, y: -125}
+  m_SizeDelta: {x: 50, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!212 &1292430617
 SpriteRenderer:
@@ -40444,6 +40608,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Stone_cube_PBR (22)
       objectReference: {fileID: 0}
+    - target: {fileID: 1214731190773470432, guid: 2fb3a94c5d64e0b4ba784a6601ca77c6, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1667981212260388545, guid: 2fb3a94c5d64e0b4ba784a6601ca77c6, type: 3}
       propertyPath: m_LocalScale.x
       value: 10
@@ -40804,10 +40972,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 1063619248}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 25, y: -25}
+  m_SizeDelta: {x: 50, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!212 &1316575854
 SpriteRenderer:
@@ -41137,6 +41305,10 @@ PrefabInstance:
     - target: {fileID: 1214731190773470432, guid: 2fb3a94c5d64e0b4ba784a6601ca77c6, type: 3}
       propertyPath: m_Name
       value: Stone_cube_PBR
+      objectReference: {fileID: 0}
+    - target: {fileID: 1214731190773470432, guid: 2fb3a94c5d64e0b4ba784a6601ca77c6, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1667981212260388545, guid: 2fb3a94c5d64e0b4ba784a6601ca77c6, type: 3}
       propertyPath: m_LocalScale.x
@@ -41821,10 +41993,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 1063619248}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 25, y: -125}
+  m_SizeDelta: {x: 50, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!61 &1353065851
 BoxCollider2D:
@@ -43940,6 +44112,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Stone_cube_PBR (27)
       objectReference: {fileID: 0}
+    - target: {fileID: 1214731190773470432, guid: 2fb3a94c5d64e0b4ba784a6601ca77c6, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1667981212260388545, guid: 2fb3a94c5d64e0b4ba784a6601ca77c6, type: 3}
       propertyPath: m_LocalScale.x
       value: 10
@@ -44712,6 +44888,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Stone_cube_PBR (35)
       objectReference: {fileID: 0}
+    - target: {fileID: 1214731190773470432, guid: 2fb3a94c5d64e0b4ba784a6601ca77c6, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1667981212260388545, guid: 2fb3a94c5d64e0b4ba784a6601ca77c6, type: 3}
       propertyPath: m_LocalScale.x
       value: 10
@@ -45332,6 +45512,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Box_Stylized (22)
       objectReference: {fileID: 0}
+    - target: {fileID: 7147413089626829632, guid: 99471e5e833b75e47a018af388d93d37, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -45834,10 +46018,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 1063619248}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 125, y: -25}
+  m_SizeDelta: {x: 50, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!61 &1493517492
 BoxCollider2D:
@@ -46766,7 +46950,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1510613659
 RectTransform:
   m_ObjectHideFlags: 0
@@ -46853,10 +47037,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 1063619248}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 225, y: -175}
+  m_SizeDelta: {x: 50, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!212 &1512809706
 SpriteRenderer:
@@ -47035,6 +47219,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Box_Stylized (18)
       objectReference: {fileID: 0}
+    - target: {fileID: 7147413089626829632, guid: 99471e5e833b75e47a018af388d93d37, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -47072,8 +47260,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1.9068482, y: 1.7683595, z: 1.8632444}
-  m_Center: {x: -0.028118897, y: -0.027194882, z: 0.0047546388}
+  m_Size: {x: 3.7068481, y: 1.7683595, z: 1.8632444}
+  m_Center: {x: 0.8718811, y: -0.027194882, z: 0.0047546388}
 --- !u!1 &1516630800
 GameObject:
   m_ObjectHideFlags: 0
@@ -47322,10 +47510,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 1063619248}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 75, y: -125}
+  m_SizeDelta: {x: 50, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!212 &1523321700
 SpriteRenderer:
@@ -47929,10 +48117,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 1063619248}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 225, y: -25}
+  m_SizeDelta: {x: 50, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!212 &1533142685
 SpriteRenderer:
@@ -48370,6 +48558,10 @@ PrefabInstance:
     - target: {fileID: 1214731190773470432, guid: 2fb3a94c5d64e0b4ba784a6601ca77c6, type: 3}
       propertyPath: m_Name
       value: Stone_cube_PBR (17)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1214731190773470432, guid: 2fb3a94c5d64e0b4ba784a6601ca77c6, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1667981212260388545, guid: 2fb3a94c5d64e0b4ba784a6601ca77c6, type: 3}
       propertyPath: m_LocalScale.x
@@ -48823,6 +49015,10 @@ PrefabInstance:
     - target: {fileID: 1214731190773470432, guid: 2fb3a94c5d64e0b4ba784a6601ca77c6, type: 3}
       propertyPath: m_Name
       value: Stone_cube_PBR (30)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1214731190773470432, guid: 2fb3a94c5d64e0b4ba784a6601ca77c6, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1667981212260388545, guid: 2fb3a94c5d64e0b4ba784a6601ca77c6, type: 3}
       propertyPath: m_LocalScale.x
@@ -50860,6 +51056,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Stone_cube_PBR (19)
       objectReference: {fileID: 0}
+    - target: {fileID: 1214731190773470432, guid: 2fb3a94c5d64e0b4ba784a6601ca77c6, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1667981212260388545, guid: 2fb3a94c5d64e0b4ba784a6601ca77c6, type: 3}
       propertyPath: m_LocalScale.x
       value: 10
@@ -51327,10 +51527,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 1063619248}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 125, y: -225}
+  m_SizeDelta: {x: 50, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!61 &1628617448
 BoxCollider2D:
@@ -51515,6 +51715,10 @@ PrefabInstance:
     - target: {fileID: 1214731190773470432, guid: 2fb3a94c5d64e0b4ba784a6601ca77c6, type: 3}
       propertyPath: m_Name
       value: Stone_cube_PBR (38)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1214731190773470432, guid: 2fb3a94c5d64e0b4ba784a6601ca77c6, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1667981212260388545, guid: 2fb3a94c5d64e0b4ba784a6601ca77c6, type: 3}
       propertyPath: m_LocalScale.x
@@ -52504,6 +52708,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Stone_cube_PBR (24)
       objectReference: {fileID: 0}
+    - target: {fileID: 1214731190773470432, guid: 2fb3a94c5d64e0b4ba784a6601ca77c6, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1667981212260388545, guid: 2fb3a94c5d64e0b4ba784a6601ca77c6, type: 3}
       propertyPath: m_LocalScale.x
       value: 10
@@ -52647,10 +52855,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 1063619248}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 25, y: -75}
+  m_SizeDelta: {x: 50, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!61 &1684335449
 BoxCollider2D:
@@ -53250,6 +53458,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Stone_cube_PBR (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 1214731190773470432, guid: 2fb3a94c5d64e0b4ba784a6601ca77c6, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1667981212260388545, guid: 2fb3a94c5d64e0b4ba784a6601ca77c6, type: 3}
       propertyPath: m_LocalScale.x
       value: 10
@@ -53546,6 +53758,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Box_Stylized (13)
       objectReference: {fileID: 0}
+    - target: {fileID: 7147413089626829632, guid: 99471e5e833b75e47a018af388d93d37, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -53830,8 +54046,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1.9068482, y: 1.7683595, z: 1.8632444}
-  m_Center: {x: -0.028118897, y: -0.027194882, z: 0.0047546388}
+  m_Size: {x: 3.9068482, y: 1.7683595, z: 1.8632444}
+  m_Center: {x: -1.028119, y: -0.027194882, z: 0.0047546388}
 --- !u!1001 &1715868685
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -53843,6 +54059,10 @@ PrefabInstance:
     - target: {fileID: 1214731190773470432, guid: 2fb3a94c5d64e0b4ba784a6601ca77c6, type: 3}
       propertyPath: m_Name
       value: Stone_cube_PBR (33)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1214731190773470432, guid: 2fb3a94c5d64e0b4ba784a6601ca77c6, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1667981212260388545, guid: 2fb3a94c5d64e0b4ba784a6601ca77c6, type: 3}
       propertyPath: m_LocalScale.x
@@ -54291,6 +54511,10 @@ PrefabInstance:
     - target: {fileID: 1214731190773470432, guid: 2fb3a94c5d64e0b4ba784a6601ca77c6, type: 3}
       propertyPath: m_Name
       value: Stone_cube_PBR (36)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1214731190773470432, guid: 2fb3a94c5d64e0b4ba784a6601ca77c6, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1667981212260388545, guid: 2fb3a94c5d64e0b4ba784a6601ca77c6, type: 3}
       propertyPath: m_LocalScale.x
@@ -55172,6 +55396,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Stone_cube_PBR (14)
       objectReference: {fileID: 0}
+    - target: {fileID: 1214731190773470432, guid: 2fb3a94c5d64e0b4ba784a6601ca77c6, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1667981212260388545, guid: 2fb3a94c5d64e0b4ba784a6601ca77c6, type: 3}
       propertyPath: m_LocalScale.x
       value: 10
@@ -55468,6 +55696,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Box_Stylized (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 7147413089626829632, guid: 99471e5e833b75e47a018af388d93d37, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -55505,8 +55737,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1.9068482, y: 1.7683595, z: 1.8632444}
-  m_Center: {x: -0.028118897, y: -0.027194882, z: 0.0047546388}
+  m_Size: {x: 1.9068482, y: 5.6683626, z: 1.8632444}
+  m_Center: {x: -0.028118897, y: -1.9771957, z: 0.0047546388}
 --- !u!1 &1790440645
 GameObject:
   m_ObjectHideFlags: 0
@@ -56707,6 +56939,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Stone_cube_PBR (31)
       objectReference: {fileID: 0}
+    - target: {fileID: 1214731190773470432, guid: 2fb3a94c5d64e0b4ba784a6601ca77c6, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1667981212260388545, guid: 2fb3a94c5d64e0b4ba784a6601ca77c6, type: 3}
       propertyPath: m_LocalScale.x
       value: 10
@@ -57308,7 +57544,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1847995579
 RectTransform:
   m_ObjectHideFlags: 0
@@ -58366,10 +58602,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 1063619248}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 75, y: -75}
+  m_SizeDelta: {x: 50, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!212 &1876986053
 SpriteRenderer:
@@ -58764,6 +59000,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Box_Stylized (24)
       objectReference: {fileID: 0}
+    - target: {fileID: 7147413089626829632, guid: 99471e5e833b75e47a018af388d93d37, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -59138,6 +59378,10 @@ PrefabInstance:
     - target: {fileID: 1214731190773470432, guid: 2fb3a94c5d64e0b4ba784a6601ca77c6, type: 3}
       propertyPath: m_Name
       value: Stone_cube_PBR (23)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1214731190773470432, guid: 2fb3a94c5d64e0b4ba784a6601ca77c6, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1667981212260388545, guid: 2fb3a94c5d64e0b4ba784a6601ca77c6, type: 3}
       propertyPath: m_LocalScale.x
@@ -60066,7 +60310,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!54 &1925675061
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -60197,8 +60441,8 @@ Transform:
   m_GameObject: {fileID: 1925675060}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 74.84, y: 0.1, z: 66}
-  m_LocalScale: {x: 0.1, y: 0.1, z: 0.1}
+  m_LocalPosition: {x: 74.84, y: 0.304, z: 66}
+  m_LocalScale: {x: 0.3, y: 0.3, z: 0.3}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 135352945}
@@ -60215,6 +60459,10 @@ PrefabInstance:
     - target: {fileID: 1214731190773470432, guid: 2fb3a94c5d64e0b4ba784a6601ca77c6, type: 3}
       propertyPath: m_Name
       value: Stone_cube_PBR (45)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1214731190773470432, guid: 2fb3a94c5d64e0b4ba784a6601ca77c6, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1667981212260388545, guid: 2fb3a94c5d64e0b4ba784a6601ca77c6, type: 3}
       propertyPath: m_LocalScale.x
@@ -60757,6 +61005,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Box_Stylized (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 7147413089626829632, guid: 99471e5e833b75e47a018af388d93d37, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -60789,7 +61041,7 @@ BoxCollider:
   m_ExcludeLayers:
     serializedVersion: 2
     m_Bits: 0
-  m_LayerOverridePriority: 0
+  m_LayerOverridePriority: -1
   m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
@@ -60979,6 +61231,10 @@ PrefabInstance:
     - target: {fileID: 7147413089626829632, guid: 99471e5e833b75e47a018af388d93d37, type: 3}
       propertyPath: m_Name
       value: Box_Stylized (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7147413089626829632, guid: 99471e5e833b75e47a018af388d93d37, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -61526,6 +61782,10 @@ PrefabInstance:
     - target: {fileID: 7147413089626829632, guid: 99471e5e833b75e47a018af388d93d37, type: 3}
       propertyPath: m_Name
       value: Box_Stylized (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7147413089626829632, guid: 99471e5e833b75e47a018af388d93d37, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -62825,6 +63085,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Box_Stylized (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 7147413089626829632, guid: 99471e5e833b75e47a018af388d93d37, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -62862,8 +63126,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1.9068482, y: 1.7683595, z: 1.8632444}
-  m_Center: {x: -0.028118897, y: -0.027194882, z: 0.0047546388}
+  m_Size: {x: 5.706848, y: 1.7683595, z: 1.8632444}
+  m_Center: {x: -1.928119, y: -0.027194882, z: 0.0047546388}
 --- !u!1 &2041380201
 GameObject:
   m_ObjectHideFlags: 0
@@ -64247,6 +64511,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Stone_cube_PBR (37)
       objectReference: {fileID: 0}
+    - target: {fileID: 1214731190773470432, guid: 2fb3a94c5d64e0b4ba784a6601ca77c6, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1667981212260388545, guid: 2fb3a94c5d64e0b4ba784a6601ca77c6, type: 3}
       propertyPath: m_LocalScale.x
       value: 10
@@ -64607,10 +64875,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 1063619248}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 75, y: -225}
+  m_SizeDelta: {x: 50, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!212 &2092750953
 SpriteRenderer:
@@ -65221,6 +65489,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Box_Stylized (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 7147413089626829632, guid: 99471e5e833b75e47a018af388d93d37, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -65258,8 +65530,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1.9068482, y: 1.7683595, z: 1.8632444}
-  m_Center: {x: -0.028118897, y: -0.027194882, z: 0.0047546388}
+  m_Size: {x: 1.9068482, y: 3.668359, z: 1.8632444}
+  m_Center: {x: -0.028118897, y: -0.9771944, z: 0.0047546388}
 --- !u!1 &2109589031
 GameObject:
   m_ObjectHideFlags: 0
@@ -65660,6 +65932,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Box_Stylized (15)
       objectReference: {fileID: 0}
+    - target: {fileID: 7147413089626829632, guid: 99471e5e833b75e47a018af388d93d37, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -66034,6 +66310,10 @@ PrefabInstance:
     - target: {fileID: 1214731190773470432, guid: 2fb3a94c5d64e0b4ba784a6601ca77c6, type: 3}
       propertyPath: m_Name
       value: Stone_cube_PBR (16)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1214731190773470432, guid: 2fb3a94c5d64e0b4ba784a6601ca77c6, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1667981212260388545, guid: 2fb3a94c5d64e0b4ba784a6601ca77c6, type: 3}
       propertyPath: m_LocalScale.x

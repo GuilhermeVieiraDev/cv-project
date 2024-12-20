@@ -17,6 +17,7 @@ public class RotationPuzzleController : MonoBehaviour
     void Start()
     {
         ballRigidbody = ball.GetComponent<Rigidbody>();
+        Debug.Log("Ball rigidbody: " + ballRigidbody.name);
     }
 
     void Update()
