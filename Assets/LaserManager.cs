@@ -49,7 +49,7 @@ public class LaserManager : MonoBehaviour
 
     private IEnumerator CompletePuzzle()
     {
-        yield return new WaitForSeconds(1f);
+        yield return new WaitForSeconds(0.5f);
         puzzleComplete = true;
         Debug.Log("Puzzle complete!");
     }
