@@ -183,7 +183,7 @@ public class PlayerController : MonoBehaviour
         {
             if (showDebug)
             {
-                Debug.DrawLine(checkPoint, shadowHit.point, Color.blue, shadowCheckInterval);
+                Debug.DrawLine(checkPoint, shadowHit.point, Color.green, shadowCheckInterval);
             }
             isInShadow = true;
             return true;

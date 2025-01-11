@@ -72,4 +72,6 @@ crashlytics-build.properties
 /[Aa]ssets/[Ss]treamingAssets/aa/*
 
 /maze_Data
+/maze_improved_Data
+/maze_improved_darker_Data
 /Assets/Settings

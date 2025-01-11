@@ -25940,7 +25940,7 @@ Light:
   serializedVersion: 11
   m_Type: 1
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 5
+  m_Intensity: 0.5
   m_Range: 10
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
@@ -48058,6 +48058,7 @@ MonoBehaviour:
   minigameCanvas: {fileID: 10410263}
   mainCamera: {fileID: 798339227}
   minigameCamera: {fileID: 1955531634}
+  globalLight: {fileID: 366772518}
   playerTransform: {fileID: 1925675066}
 --- !u!1 &717567464
 GameObject:
@@ -118102,6 +118103,7 @@ MonoBehaviour:
   minigameCanvas: {fileID: 2145285235}
   mainCamera: {fileID: 798339227}
   minigameCamera: {fileID: 1126425545}
+  globalLight: {fileID: 366772518}
   playerTransform: {fileID: 1925675066}
 --- !u!1 &1843725446
 GameObject:
@@ -124601,6 +124603,7 @@ MonoBehaviour:
   minigameCanvas: {fileID: 1201065231}
   mainCamera: {fileID: 798339227}
   minigameCamera: {fileID: 330585545}
+  globalLight: {fileID: 366772518}
   playerTransform: {fileID: 1925675066}
 --- !u!1 &1942362735
 GameObject:

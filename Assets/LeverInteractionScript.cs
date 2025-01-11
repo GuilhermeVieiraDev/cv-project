@@ -32,6 +32,9 @@ public class LeverInteractionScript : MonoBehaviour
     
     [Tooltip("Reference to the minigame camera")]
     public Camera minigameCamera;
+
+    [Tooltip("Reference to the global light in the scene")]
+    public Light globalLight;
     
     // [Tooltip("Reference to the player's movement script")]
     // public MonoBehaviour playerMovementScript;
@@ -116,6 +119,7 @@ public class LeverInteractionScript : MonoBehaviour
 
     void StartMinigame()
     {
+        globalLight.intensity = 5f;
         isMinigameActive = true;
 
         // Disable player movement
@@ -154,6 +158,7 @@ public class LeverInteractionScript : MonoBehaviour
 
     void EndMinigame()
     {
+        globalLight.intensity = 0.5f;
         isMinigameActive = false;
 
         // Re-enable player movement
