@@ -38,3 +38,8 @@
 ### Additional Notes
 - Ensure all dependencies and assets are properly imported.
 - Refer to the Unity documentation or the group for any specific build configurations or troubleshooting.
+
+### Contributors
+
+- [Guilherme Vieira](https://github.com/GuilhermeVieiraDev), 108671
+- [Henrique Coelho](https://github.com/Z3uziks), 108342
